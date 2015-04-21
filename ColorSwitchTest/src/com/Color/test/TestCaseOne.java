@@ -7,8 +7,8 @@ import android.test.ActivityInstrumentationTestCase2;
 
 public class TestCaseOne extends ActivityInstrumentationTestCase2 {
 	
-	private static final String TARGET_PACKAGE_ID = "com.Color.colorswitch";
-	private static final String LAUNCHER_ACTIVITY_FULL_CLASSNAME = "com.Color.colorswitch.SplashActivity";
+	private static final String TARGET_PACKAGE_ID = "com.Color";
+	private static final String LAUNCHER_ACTIVITY_FULL_CLASSNAME = "com.Color.SplashActivity";
 	private static Class<?> launcherActivityClass;
 	
 	static{
