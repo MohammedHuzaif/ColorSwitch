@@ -33,7 +33,7 @@ public class TestCaseOne extends ActivityInstrumentationTestCase2 {
 		}
 
 	public void testCanOpenSettings(){
-		solo.clickOnText("TOUCH...!!!");
+		solo.clickOnText("Touch to Continue");
 		solo.clickOnButton("RED");
 		solo.clickOnButton("BLACK");
 		solo.clickOnButton("RED");

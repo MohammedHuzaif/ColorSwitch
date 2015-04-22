@@ -1,9 +1,9 @@
 package com.Color;
 
 import com.Color.R;
-
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Color;
 import android.view.Menu;
 import android.view.View;
@@ -40,5 +40,10 @@ public class ColorActivity extends Activity {
 		public void black(View v){
 			View view = this.getWindow().getDecorView();
 		    view.setBackgroundColor(Color.BLACK); 
+		}
+		
+		public void formActivity(View V){
+			Intent i=new Intent(this, SecondActivity.class);
+			startActivity(i);
 		}
 }
